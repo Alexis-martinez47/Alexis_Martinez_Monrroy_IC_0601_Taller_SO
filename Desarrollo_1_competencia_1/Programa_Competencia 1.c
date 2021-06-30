@@ -8,7 +8,7 @@ char nombre[50];
 }Proceso;
 
 int main(int argc, char *argv[]){
-	int i,noProc,valTiem;
+	int i,noProc,validacionTiempo;
 	printf("Introduce el numero de procesos: ");
 	scanf("%i",&noProc);
 	Proceso procesos[noProc];
@@ -16,8 +16,8 @@ int main(int argc, char *argv[]){
 		printf("Introduce el nombre de proceso ");
 		scanf("%s", procesos[i].nombre);
 		printf("Introduce el tiempo del proceso %i (milisegundos:)",i+1);
-		scanf("%i",&valTiem);
-		procesos[i].tiempo=valTiem;
+		scanf("%i",&validacionTiempo);
+		procesos[i].tiempo=validacionTiempo;
 		if(valTiem=!0){
 			procesos[i].valido=1;
 		}else{

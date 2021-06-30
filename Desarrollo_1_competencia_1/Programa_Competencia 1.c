@@ -9,11 +9,11 @@ char nombre[50];
 
 int main(int argc, char *argv[]){
 	int i,noProc,validacionTiempo;
-	printf("Introduce el numero de procesos: ");
+	printf("nombre de procesos: ");
 	scanf("%i",&noProc);
 	Proceso procesos[noProc];
 	for(i=0;i<noProc;i++){
-		printf("Introduce el nombre de proceso ");
+		printf("nombre de proceso ");
 		scanf("%s", procesos[i].nombre);
 		printf("Introduce el tiempo del proceso %i (milisegundos:)",i+1);
 		scanf("%i",&validacionTiempo);

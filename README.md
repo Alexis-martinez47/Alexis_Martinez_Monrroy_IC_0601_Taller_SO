@@ -1,1 +1,0 @@
-# Alexis_Martinez_Monrroy_IC_0601_Taller_SO
